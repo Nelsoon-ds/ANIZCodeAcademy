@@ -12,4 +12,8 @@ public class Circle01 {
     public double beregnAreal() {
         return Math.PI * radius * radius;
     }
+
+    public double setRadius(double radius) {
+        return this.radius = radius;
+    }
 }
