@@ -8,7 +8,8 @@ public class Tile {
         Tile t1 = new Tile();
         t1.printTile(t1);
         String s = t1.toString();
-        System.out.print(s);
+        System.out.println(s);
+        System.out.println("Hashcode: " + s.hashCode());
     }
 
     public Tile(char letter, int value) {
